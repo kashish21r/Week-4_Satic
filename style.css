@@ -1,0 +1,96 @@
+body {
+     font-family: Century;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header / Navbar */
+header {
+    background-color: #000000cc;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.715);
+    margin-left: 15px;
+    text-decoration: none;
+}
+nav :hover{
+    color: rgb(208, 154, 118);
+    text-decoration-line: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://www.virtualinternships.com/wp-content/uploads/2025/06/The-only-platform-that-guarantees-real-world-work-experience-across-the-globe-.png.webp");
+    background-repeat: no-repeat;
+    height: fit-content;
+
+    padding: 40px;
+    
+.hero-text{
+    text-align: left;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 1.5vh;
+    padding-left: 900px;
+    padding-right: 600px;
+}
+}
+
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}**/
+
+/* Horizontal Sections */
+.content-row {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    padding: 30px;
+}
+
+/**** bg ******/
+.bg{
+    background-color: rgba(173, 216, 230, 0.571);
+    padding-right: 700px;
+}
+h2, h5{
+   text-decoration: underline;
+}
+ul p{
+    padding-left: 300px;
+}
+/*********** Service ***********/
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.services{
+
+    font-size: larger;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: start;
+    padding-left: 400px;
+}
